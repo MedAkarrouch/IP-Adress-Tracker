@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Font style -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+  <!-- Sass -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Leaflet -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css"
+    integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin="" />
+  <script defer src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"
+    integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg=" crossorigin=""></script>
+  <!--  -->
+  <script defer src="app.js"></script>
+  <title>IP address tracker</title>
+</head>
+
+<body>
+  <section class="input-section">
+    <h1 class="heading-primary">IP Address Tracker</h1>
+    <form action="" class="form">
+      <input type="text" class="form__input" autocomplete="off" placeholder="Search for any IP address">
+      <label class="form__label" for="">Heloo i'm a fuckin label</label>
+      <button type="submit" class="form__btn">
+        <img class="form__icon" src="images/icon-arrow.svg" alt="">
+      </button>
+    </form>
+  </section>
+  <section class="adresses-section">
+  </section>
+  <div id="map">
+  </div>
+</body>
+
+</html>
